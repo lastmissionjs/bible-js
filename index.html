@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi"
+    />
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+      <script type="text/javascript">
+        location.href('./notsupport.html');
+      </script>
+    <![endif]-->
+    <script type="text/javascript" src="./js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="./js/bible.js"></script>
+    <title>Bible For Webbrowser</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <div id="header">
+          <h1>Bible For Webbrowser</h1>
+          <ul id="version" style="display: none">
+            <li id="v_koreankjv"><a class="selected" href="javascript:setVersion('koreankjv')">한글킹</a></li>
+          </ul>
+        </div>
+      </header>
+      <hr />
+      <section id="container">
+        <div id="random">
+          <div id="random_verse"></div>
+          <div id="random_title"></div>
+          <p>
+            <a href="javascript:randomPointer();"
+              ><img src="./images/random_refresh_48.png" alt="랜덤" title="섞기"
+            /></a>
+          </p>
+        </div>
+        <div id="content">
+          <div id="bible_index">
+            <!--책 고르기-->
+            <div id="bible_title">
+              <div class="title"><h2>목&nbsp;&nbsp;차</h2></div>
+              <ul id="tap">
+                <li id="font_bigger"><a href="#">확대</a></li>
+                <li id="font_smaller"><a href="#">축소</a></li>
+                <li id="visible_menu"><a href="#">숨김</a></li>
+              </ul>
+            </div>
+            <div id="lnb">
+              <ul id="old"></ul>
+              <ul id="new"></ul>
+            </div>
+          </div>
+          <div id="viewer" class="hidden">
+            <div id="bible_chapter"></div>
+            <div id="bible_content">
+              <table id="table_bible_content">
+                <thead>
+                  <tr>
+                    <th class="line">라인</th>
+                    <th class="verse">내용</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <footer>
+        <div id="footer">
+          <p id="copyright"><a href="javascript:scrollToTheTop();">&copy; God Corp</a></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

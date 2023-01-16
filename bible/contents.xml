@@ -1,0 +1,596 @@
+﻿<bible>
+<book no="1">
+<name>창세기</name>
+<abb_name>창</abb_name>
+<eng_name>Genesis</eng_name>
+<abb_eng_name>GE</abb_eng_name>
+<chapter>50</chapter>
+<exp>모세오경 율법서</exp>
+</book>
+
+<book no="2">
+<name>출애굽기</name>
+<abb_name>출</abb_name>
+<eng_name>Exodus</eng_name>
+<abb_eng_name>EX</abb_eng_name>
+<chapter>40</chapter>
+<exp>모세오경 율법서</exp>
+</book>
+
+<book no="3">
+<name>레위기</name>
+<abb_name>레</abb_name>
+<eng_name>Leviticus</eng_name>
+<abb_eng_name>LEV</abb_eng_name>
+<chapter>27</chapter>
+<exp>모세오경 율법서</exp>
+</book>
+
+<book no="4">
+<name>민수기</name>
+<abb_name>민</abb_name>
+<eng_name>Numbers</eng_name>
+<abb_eng_name>NU</abb_eng_name>
+<chapter>36</chapter>
+<exp>모세오경 율법서</exp>
+</book>
+
+<book no="5">
+<name>신명기</name>
+<abb_name>신</abb_name>
+<eng_name>Deuteronomy</eng_name>
+<abb_eng_name>DT</abb_eng_name>
+<chapter>34</chapter>
+<exp>모세오경 율법서</exp>
+</book>
+
+<book no="6">
+<name>여호수아</name>
+<abb_name>수</abb_name>
+<eng_name>Joshua</eng_name>
+<abb_eng_name>JOS</abb_eng_name>
+<chapter>24</chapter>
+<exp>역사서(신정)</exp>
+</book>
+
+<book no="7">
+<name>사사기</name>
+<abb_name>삿</abb_name>
+<eng_name>Judges</eng_name>
+<abb_eng_name>JDG</abb_eng_name>
+<chapter>21</chapter>
+<exp>역사서(신정)</exp>
+</book>
+
+<book no="8">
+<name>룻기</name>
+<abb_name>룻</abb_name>
+<eng_name>Ruth</eng_name>
+<abb_eng_name>RU</abb_eng_name>
+<chapter>4</chapter>
+<exp>역사서(신정)</exp>
+</book>
+
+<book no="9">
+<name>사무엘상</name>
+<abb_name>삼상</abb_name>
+<eng_name>1Samuel</eng_name>
+<abb_eng_name>1SA</abb_eng_name>
+<chapter>31</chapter>
+<exp>역사서(왕정)</exp>
+</book>
+
+<book no="10">
+<name>사무엘하</name>
+<abb_name>삼하</abb_name>
+<eng_name>2Samuel</eng_name>
+<abb_eng_name>2SA</abb_eng_name>
+<chapter>24</chapter>
+<exp>역사서(왕정)</exp>
+</book>
+
+<book no="11">
+<name>열왕기상</name>
+<abb_name>왕상</abb_name>
+<eng_name>1Kings</eng_name>
+<abb_eng_name>1KI</abb_eng_name>
+<chapter>22</chapter>
+<exp>역사서(왕정)</exp>
+</book>
+
+<book no="12">
+<name>열왕기하</name>
+<abb_name>왕하</abb_name>
+<eng_name>2Kings</eng_name>
+<abb_eng_name>2KI</abb_eng_name>
+<chapter>25</chapter>
+<exp>역사서(왕정)</exp>
+</book>
+
+<book no="13">
+<name>역대상</name>
+<abb_name>대상</abb_name>
+<eng_name>1Chronicles</eng_name>
+<abb_eng_name>1CH</abb_eng_name>
+<chapter>29</chapter>
+<exp>역사서(왕정)</exp>
+</book>
+
+<book no="14">
+<name>역대하</name>
+<abb_name>대하</abb_name>
+<eng_name>2Chronicles</eng_name>
+<abb_eng_name>2CH</abb_eng_name>
+<chapter>36</chapter>
+<exp>역사서(왕정)</exp>
+</book>
+
+<book no="15">
+<name>에스라</name>
+<abb_name>스</abb_name>
+<eng_name>Ezra</eng_name>
+<abb_eng_name>EZR</abb_eng_name>
+<chapter>10</chapter>
+<exp>역사서(포로귀환)</exp>
+</book>
+
+<book no="16">
+<name>느헤미야</name>
+<abb_name>느</abb_name>
+<eng_name>Nehemiah</eng_name>
+<abb_eng_name>NE</abb_eng_name>
+<chapter>13</chapter>
+<exp>역사서(포로귀환)</exp>
+</book>
+
+<book no="17">
+<name>에스더</name>
+<abb_name>에</abb_name>
+<eng_name>Esther</eng_name>
+<abb_eng_name>EST</abb_eng_name>
+<chapter>10</chapter>
+<exp>역사서(포로귀환)</exp>
+</book>
+
+<book no="18">
+<name>욥기</name>
+<abb_name>욥</abb_name>
+<eng_name>Job</eng_name>
+<abb_eng_name>JOB</abb_eng_name>
+<chapter>42</chapter>
+<exp>시가서</exp>
+</book>
+
+<book no="19">
+<name>시편</name>
+<abb_name>시</abb_name>
+<eng_name>Psalms</eng_name>
+<abb_eng_name>PS</abb_eng_name>
+<chapter>150</chapter>
+<exp>시가서</exp>
+</book>
+
+<book no="20">
+<name>잠언</name>
+<abb_name>잠</abb_name>
+<eng_name>Proverbs</eng_name>
+<abb_eng_name>PR</abb_eng_name>
+<chapter>31</chapter>
+<exp>시가서</exp>
+</book>
+
+<book no="21">
+<name>전도서</name>
+<abb_name>전</abb_name>
+<eng_name>Ecclesiastes</eng_name>
+<abb_eng_name>ECC</abb_eng_name>
+<chapter>12</chapter>
+<exp>시가서</exp>
+</book>
+
+<book no="22">
+<name>아가</name>
+<abb_name>아</abb_name>
+<eng_name>Song of Songs</eng_name>
+<abb_eng_name>SS</abb_eng_name>
+<chapter>8</chapter>
+<exp>시가서</exp>
+</book>
+
+<book no="23">
+<name>이사야</name>
+<abb_name>사</abb_name>
+<eng_name>Isaiah</eng_name>
+<abb_eng_name>ISA</abb_eng_name>
+<chapter>66</chapter>
+<exp>예언서(대선지서)</exp>
+</book>
+
+<book no="24">
+<name>예레미야</name>
+<abb_name>렘</abb_name>
+<eng_name>Jeremiah</eng_name>
+<abb_eng_name>JER</abb_eng_name>
+<chapter>52</chapter>
+<exp>예언서(대선지서)</exp>
+</book>
+
+<book no="25">
+<name>예레미야애가</name>
+<abb_name>애</abb_name>
+<eng_name>Lamentations</eng_name>
+<abb_eng_name>LA</abb_eng_name>
+<chapter>5</chapter>
+<exp>예언서(대선지서)</exp>
+</book>
+
+<book no="26">
+<name>에스겔</name>
+<abb_name>겔</abb_name>
+<eng_name>Ezekiel</eng_name>
+<abb_eng_name>EZE</abb_eng_name>
+<chapter>48</chapter>
+<exp>예언서(대선지서)</exp>
+</book>
+
+<book no="27">
+<name>다니엘</name>
+<abb_name>단</abb_name>
+<eng_name>Daniel</eng_name>
+<abb_eng_name>DA</abb_eng_name>
+<chapter>12</chapter>
+<exp>예언서(대선지서)</exp>
+</book>
+
+<book no="28">
+<name>호세아</name>
+<abb_name>호</abb_name>
+<eng_name>Hosea</eng_name>
+<abb_eng_name>HOS</abb_eng_name>
+<chapter>14</chapter>
+<exp>예언서(소선지서)</exp>
+</book>
+
+<book no="29">
+<name>요엘</name>
+<abb_name>욜</abb_name>
+<eng_name>Joel</eng_name>
+<abb_eng_name>JOE</abb_eng_name>
+<chapter>3</chapter>
+<exp>예언서(소선지서)</exp>
+</book>
+
+<book no="30">
+<name>아모스</name>
+<abb_name>암</abb_name>
+<eng_name>Amos</eng_name>
+<abb_eng_name>AM</abb_eng_name>
+<chapter>9</chapter>
+<exp>예언서(소선지서)</exp>
+</book>
+
+<book no="31">
+<name>오바댜</name>
+<abb_name>옵</abb_name>
+<eng_name>Obadiah</eng_name>
+<abb_eng_name>OB</abb_eng_name>
+<chapter>1</chapter>
+<exp>예언서(소선지서)</exp>
+</book>
+
+<book no="32">
+<name>요나</name>
+<abb_name>욘</abb_name>
+<eng_name>Jonah</eng_name>
+<abb_eng_name>JNH</abb_eng_name>
+<chapter>4</chapter>
+<exp>예언서(소선지서)</exp>
+</book>
+
+<book no="33">
+<name>미가</name>
+<abb_name>미</abb_name>
+<eng_name>Micah</eng_name>
+<abb_eng_name>MIC</abb_eng_name>
+<chapter>7</chapter>
+<exp>예언서(소선지서)</exp>
+</book>
+
+<book no="34">
+<name>나훔</name>
+<abb_name>나</abb_name>
+<eng_name>Nahum</eng_name>
+<abb_eng_name>NA</abb_eng_name>
+<chapter>3</chapter>
+<exp>예언서(소선지서)</exp>
+</book>
+
+<book no="35">
+<name>하박국</name>
+<abb_name>합</abb_name>
+<eng_name>Habakkuk</eng_name>
+<abb_eng_name>HAB</abb_eng_name>
+<chapter>3</chapter>
+<exp>예언서(소선지서)</exp>
+</book>
+
+<book no="36">
+<name>스바냐</name>
+<abb_name>습</abb_name>
+<eng_name>Zephaniah</eng_name>
+<abb_eng_name>ZEP</abb_eng_name>
+<chapter>3</chapter>
+<exp>예언서(소선지서)</exp>
+</book>
+
+<book no="37">
+<name>학개</name>
+<abb_name>학</abb_name>
+<eng_name>Haggai</eng_name>
+<abb_eng_name>HAG</abb_eng_name>
+<chapter>2</chapter>
+<exp>예언서(소선지서)</exp>
+</book>
+
+<book no="38">
+<name>스가랴</name>
+<abb_name>슥</abb_name>
+<eng_name>Zechariah</eng_name>
+<abb_eng_name>ZEC</abb_eng_name>
+<chapter>14</chapter>
+<exp>예언서(소선지서)</exp>
+</book>
+
+<book no="39">
+<name>말라기</name>
+<abb_name>말</abb_name>
+<eng_name>Malachi</eng_name>
+<abb_eng_name>MAL</abb_eng_name>
+<chapter>4</chapter>
+<exp>예언서(소선지서)</exp>
+</book>
+
+<book no="40">
+<name>마태복음</name>
+<abb_name>마</abb_name>
+<eng_name>Matthew</eng_name>
+<abb_eng_name>MT</abb_eng_name>
+<chapter>28</chapter>
+<exp>복음서</exp>
+</book>
+
+<book no="41">
+<name>마가복음</name>
+<abb_name>막</abb_name>
+<eng_name>Mark</eng_name>
+<abb_eng_name>MK</abb_eng_name>
+<chapter>16</chapter>
+<exp>복음서</exp>
+</book>
+
+<book no="42">
+<name>누가복음</name>
+<abb_name>눅</abb_name>
+<eng_name>Luke</eng_name>
+<abb_eng_name>LK</abb_eng_name>
+<chapter>24</chapter>
+<exp>복음서</exp>
+</book>
+
+<book no="43">
+<name>요한복음</name>
+<abb_name>요</abb_name>
+<eng_name>John</eng_name>
+<abb_eng_name>JNH</abb_eng_name>
+<chapter>21</chapter>
+<exp>복음서</exp>
+</book>
+
+<book no="44">
+<name>사도행전</name>
+<abb_name>행</abb_name>
+<eng_name>Acts</eng_name>
+<abb_eng_name>AC</abb_eng_name>
+<chapter>28</chapter>
+<exp>역사서</exp>
+</book>
+
+<book no="45">
+<name>로마서</name>
+<abb_name>롬</abb_name>
+<eng_name>Romans</eng_name>
+<abb_eng_name>RO</abb_eng_name>
+<chapter>16</chapter>
+<exp>바울서신</exp>
+</book>
+
+<book no="46">
+<name>고린도전서</name>
+<abb_name>고전</abb_name>
+<eng_name>1Corinthians</eng_name>
+<abb_eng_name>1CO</abb_eng_name>
+<chapter>16</chapter>
+<exp>바울서신</exp>
+</book>
+
+<book no="47">
+<name>고린도후서</name>
+<abb_name>고후</abb_name>
+<eng_name>2Corinthians</eng_name>
+<abb_eng_name>2CO</abb_eng_name>
+<chapter>13</chapter>
+<exp>바울서신</exp>
+</book>
+
+<book no="48">
+<name>갈라디아서</name>
+<abb_name>갈</abb_name>
+<eng_name>Galatians</eng_name>
+<abb_eng_name>GAL</abb_eng_name>
+<chapter>6</chapter>
+<exp>바울서신</exp>
+</book>
+
+<book no="49">
+<name>에베소서</name>
+<abb_name>엡</abb_name>
+<eng_name>Ephesians</eng_name>
+<abb_eng_name>EPH</abb_eng_name>
+<chapter>6</chapter>
+<exp>옥중서신</exp>
+</book>
+
+<book no="50">
+<name>빌립보서</name>
+<abb_name>빌</abb_name>
+<eng_name>Philippians</eng_name>
+<abb_eng_name>PHP</abb_eng_name>
+<chapter>4</chapter>
+<exp>옥중서신</exp>
+</book>
+
+<book no="51">
+<name>골로새서</name>
+<abb_name>골</abb_name>
+<eng_name>Colossians</eng_name>
+<abb_eng_name>COL</abb_eng_name>
+<chapter>4</chapter>
+<exp>옥중서신</exp>
+</book>
+
+<book no="52">
+<name>데살로니가전서</name>
+<abb_name>살전</abb_name>
+<eng_name>1Thessalonians</eng_name>
+<abb_eng_name>1TH</abb_eng_name>
+<chapter>5</chapter>
+<exp>재림서신</exp>
+</book>
+
+<book no="53">
+<name>데살로니가후서</name>
+<abb_name>살후</abb_name>
+<eng_name>2Thessalonians</eng_name>
+<abb_eng_name>2TH</abb_eng_name>
+<chapter>3</chapter>
+<exp>재림서신</exp>
+</book>
+
+<book no="54">
+<name>디모데전서</name>
+<abb_name>딤전</abb_name>
+<eng_name>1Timothy</eng_name>
+<abb_eng_name>1TI</abb_eng_name>
+<chapter>6</chapter>
+<exp>목회서신</exp>
+</book>
+
+<book no="55">
+<name>디모데후서</name>
+<abb_name>딤후</abb_name>
+<eng_name>2Timothy</eng_name>
+<abb_eng_name>2TI</abb_eng_name>
+<chapter>4</chapter>
+<exp>목회서신</exp>
+</book>
+
+<book no="56">
+<name>디도서</name>
+<abb_name>딛</abb_name>
+<eng_name>Titus</eng_name>
+<abb_eng_name>TIT</abb_eng_name>
+<chapter>3</chapter>
+<exp>목회서신</exp>
+</book>
+
+<book no="57">
+<name>빌레몬서</name>
+<abb_name>몬</abb_name>
+<eng_name>Philemon</eng_name>
+<abb_eng_name>PHM</abb_eng_name>
+<chapter>1</chapter>
+<exp>옥중서신</exp>
+</book>
+
+<book no="58">
+<name>히브리서</name>
+<abb_name>히</abb_name>
+<eng_name>Hebrews</eng_name>
+<abb_eng_name>HEB</abb_eng_name>
+<chapter>13</chapter>
+<exp>일반서신</exp>
+</book>
+
+<book no="59">
+<name>야고보서</name>
+<abb_name>약</abb_name>
+<eng_name>James</eng_name>
+<abb_eng_name>JAS</abb_eng_name>
+<chapter>5</chapter>
+<exp>일반서신</exp>
+</book>
+
+<book no="60">
+<name>베드로전서</name>
+<abb_name>벧전</abb_name>
+<eng_name>1Peter</eng_name>
+<abb_eng_name>1PE</abb_eng_name>
+<chapter>5</chapter>
+<exp>일반서신</exp>
+</book>
+
+<book no="61">
+<name>베드로후서</name>
+<abb_name>벧후</abb_name>
+<eng_name>2Peter</eng_name>
+<abb_eng_name>2PE</abb_eng_name>
+<chapter>3</chapter>
+<exp>일반서신</exp>
+</book>
+
+<book no="62">
+<name>요한1서</name>
+<abb_name>요일</abb_name>
+<eng_name>1John</eng_name>
+<abb_eng_name>1JN</abb_eng_name>
+<chapter>5</chapter>
+<exp>일반서신</exp>
+</book>
+
+<book no="63">
+<name>요한2서</name>
+<abb_name>요이</abb_name>
+<eng_name>2John</eng_name>
+<abb_eng_name>2JN</abb_eng_name>
+<chapter>1</chapter>
+<exp>일반서신</exp>
+</book>
+
+<book no="64">
+<name>요한3서</name>
+<abb_name>요삼</abb_name>
+<eng_name>3John</eng_name>
+<abb_eng_name>3JN</abb_eng_name>
+<chapter>1</chapter>
+<exp>일반서신</exp>
+</book>
+
+<book no="65">
+<name>유다서</name>
+<abb_name>유</abb_name>
+<eng_name>Jude</eng_name>
+<abb_eng_name>JUDE</abb_eng_name>
+<chapter>1</chapter>
+<exp>일반서신</exp>
+</book>
+
+<book no="66">
+<name>요한계시록</name>
+<abb_name>계</abb_name>
+<eng_name>Revelation</eng_name>
+<abb_eng_name>REV</abb_eng_name>
+<chapter>22</chapter>
+<exp>예언서</exp>
+</book>
+
+</bible>

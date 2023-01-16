@@ -1,0 +1,336 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+ul#version {
+  letter-spacing: -0.1em;
+  font-size: 0.8em;
+  border-top: 1px solid #d2d2d2;
+  border-bottom: 1px solid #d2d2d2;
+}
+ul#version li a {
+  float: left;
+  width: 25%;
+  padding-top: 20px;
+  height: 50px;
+}
+/*버전별로 색상차별*/
+ul#version li a:hover,
+ul#version li a.selected {
+  color: #fff;
+  font-weight: bold;
+}
+li#v_general a:hover,
+li#v_general a.selected {
+  /*개역개정*/
+  background-color: #5b8afc;
+}
+li#v_duranno a:hover,
+li#v_duranno a.selected {
+  /*우리말성경*/
+  background-color: #acc803;
+}
+li#v_standard_new a:hover,
+li#v_standard_new a.selected {
+  /*표준새번역*/
+  background-color: #feba00;
+}
+li#v_koreankjv a:hover,
+li#v_koreankjv a.selected {
+  /*niv*/
+  background-color: #f06259;
+}
+/*container*/
+h1 {
+  display: none;
+}
+#content {
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#bible_index {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+#bible_title {
+  margin: 0 auto;
+  min-height: 50px;
+}
+#bible_index div.title {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+#bible_index div.title h2 {
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+#bible_index ul#tap {
+  position: relative;
+  float: right;
+  top: 0;
+  left: -1%;
+}
+#bible_index ul#tap li a {
+  display: block;
+  text-indent: -1000em;
+  width: 48px;
+  height: 48px;
+}
+#bible_index ul#tap li#font_bigger a {
+  background-image: url(../images/menu_plus_48.png);
+}
+#bible_index ul#tap li#font_smaller a {
+  background-image: url(../images/menu_minus_48.png);
+}
+#bible_index ul#tap li#visible_menu a {
+  background-image: url(../images/menu_expand_48.png);
+}
+
+div#lnb {
+  clear: both;
+  height: 100%;
+  margin-bottom: 10px;
+}
+div#lnb p.age {
+  text-align: left;
+  margin-top: 10px;
+  padding: 5px 1%;
+
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  /*	background-color:#efefef;*/
+}
+/*구약신약 색깔 차별화*/
+div#lnb ul {
+  margin: 5px 1% 5px 0;
+}
+div#lnb p.old {
+  background-color: #0079e9;
+}
+div#lnb p.new {
+  background-color: #e52e02;
+}
+div#lnb.hidden {
+  height: 0;
+  overflow: hidden;
+}
+#bible_index:after,
+#bible_index ul:after,
+ul#version:after,
+div#bible_chapter:after {
+  content: '.';
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
+}
+#bible_index ul li {
+  float: left;
+}
+#bible_index ul li a {
+  display: block;
+  margin: 10px 0 0 10px;
+  border-radius: 30px;
+  padding-top: 8px;
+  width: 165px;
+  height: 40px;
+  color: #555;
+  font-weight: bold;
+}
+/*구약 파란색*/
+#bible_index ul#old li a {
+  border: 1px solid #0079e9;
+}
+#bible_index ul#old li a:hover,
+#bible_index ul#old li a.selected {
+  background-color: #0079e9;
+  color: #fff;
+}
+/*신약 빨간색*/
+#bible_index ul#new li a {
+  border: 1px solid #e52e02;
+}
+#bible_index ul#new li a:hover,
+#bible_index ul#new li a.selected {
+  background-color: #e52e02;
+  color: #fff;
+}
+
+#bible_index ul#new {
+  clear: both;
+  /*margin-top:30px;*/
+}
+/*랜덤*/
+#random {
+  /*기타 속성*/
+  background-color: #eee;
+  position: relative;
+  display: none;
+}
+/*랜덤 보여줄 때 서식*/
+#random.show {
+  /*기타 속성*/
+  display: block;
+  padding: 30px 0;
+  min-height: 80px;
+
+  /*background-color:#FCC;*/
+}
+#random p a {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+}
+#random_verse {
+  margin: 10px 18% 10px 10%;
+  max-width: 70%;
+}
+#random_title {
+  margin-top: 10px;
+  padding-right: 5%;
+  text-align: right;
+}
+
+/*랜덤버튼 클릭 시 이미지 회전 애니메이션*/
+#random p a img {
+  width: 32px;
+  height: 32px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#random p a img:hover {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+#random p a img.clicked {
+  -webkit-transform: rotate(359deg);
+  -moz-transform: rotate(359deg);
+  -o-transform: rotate(359deg);
+  -ms-transform: rotate(359deg);
+  transform: rotate(359deg);
+}
+
+/*성경뷰어*/
+#viewer {
+  clear: both;
+  width: 100%;
+  min-height: 500px;
+  background-color: #333;
+}
+#viewer.show {
+  display: block;
+  background-color: #fff;
+}
+#viewer.hidden {
+  display: none;
+}
+/*성경뷰어 장*/
+#bible_chapter {
+  width: 100%;
+  height: 100%;
+  margin: 10px 1% 10px 0;
+}
+#bible_chapter p {
+  float: left;
+  margin: 5px 5px;
+}
+/*장 속성*/
+#bible_chapter p a {
+  display: block;
+  width: 50px;
+  height: 36px;
+  color: #555;
+  padding-top: 5px;
+  border: 1px solid #d2d2d2;
+}
+#bible_chapter p a.hover {
+  font-weight: bold;
+  color: #fff;
+  background-color: #959595;
+}
+/*절 표시*/
+#bible_content {
+  clear: both;
+}
+table#table_bible_content {
+  width: 100%;
+  font-size: 1em;
+  border-bottom: 1px solid #999;
+}
+table#table_bible_content th {
+  /*thead 숨기기*/
+  display: none;
+}
+table#table_bible_content tr,
+table#table_bible_content tr:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+table#table_bible_content tr:hover {
+  /*행이 커서에 닿으면?*/
+  background-color: #fff173 !important;
+}
+table#table_bible_content tr.odd {
+  /*홀수 줄 배경 다르게*/
+  background-color: #fafafa;
+}
+table#table_bible_content tr.highlight td {
+  /*랜덤 하이라이트*/
+  background-color: #5681dd !important;
+  font-weight: bold !important;
+  color: #fff !important;
+}
+table#table_bible_content td {
+  border-top: 1px solid #999;
+}
+table#table_bible_content .subtitle {
+  /*소주제가 나오면*/
+  text-align: left;
+  font-weight: bold;
+  padding: 15px 2%;
+  color: #fff;
+  background-color: #5f5f5f;
+  min-height: 40px;
+}
+table#table_bible_content .line {
+  /*숫자 칸 줄이기*/
+  width: 3%;
+  padding-top: 5px;
+  vertical-align: sub;
+  font-size: 0.6em;
+}
+table#table_bible_content .verse {
+  text-align: left;
+  font-weight: bold;
+  width: 98%;
+  min-height: 40px;
+  padding: 15px 0;
+  line-height: 1.2em;
+}
+
+/*footer*/
+div#footer {
+  border-top: 1px solid #d2d2d2;
+  background-color: #eee;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+div#footer p#copyright {
+  font-size: 0.9em;
+}

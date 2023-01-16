@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import url(./nanumgothic.css);
+
+/* CSS Document */
+
+*{margin:0;padding:0;}
+body,h1,h2,h3,h4,th,td,input{color:#333;font-family:"nanum gothic","나눔고딕",nanumgothic,"맑은 고딕","Malgun Gothic","돋움",dotum;font-size:24px;font-weight:normal;}
+body{position:relative;background-color:#ffffff;text-align:center;}
+hr{display:none;}
+img,fieldset{border:0;}
+ul,ol,li{list-style:none;}
+img,input,select,textarea{vertical-align:middle;}
+a{color:#30323f;text-decoration:none !important;}
+a:hover{color:#ec4242;text-decoration:underline;}
+.ir span, .hidden, #main_menu li a span,#left_menu li a span{background:0 none;display:block;position:relative;z-index:-1;height:11px;overflow:hidden;font-size:11px;text-indent:-1000em;}
+table {padding:0; border-spacing:0px; border:0; border-collapse:collapse;}
+th, td {padding:0px;}
+
+#wrap{width:100%;height:100%;}
