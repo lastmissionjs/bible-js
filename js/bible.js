@@ -157,6 +157,13 @@ function openBook(bookName) {
     dataType: 'xml',
     async: false,
     success: showBook,
+    statusCode: {
+      404: function () {
+        if (bookName === 'songofsongs') {
+          openBook('songofsolomon');
+        }
+      },
+    },
   });
 }
 
@@ -177,9 +184,12 @@ function showBook(xml) {
   $('div#bible_chapter').text('');
   //장 추가
 
-  const bibleIndex = bible_name.findIndex(
-    (b) => b.toLowerCase().replace(/\s/g, '') === engName.toLowerCase().replace(/\s/g, '')
-  );
+  const find = (engName) =>
+    bible_name.findIndex((b) => b.toLowerCase().replace(/\s/g, '') === engName.toLowerCase().replace(/\s/g, ''));
+  let bibleIndex = find(engName);
+  if (bibleIndex === -1 && engName === 'Song of Solomon') {
+    bibleIndex = find('Song of Songs');
+  }
   for (var i = 1; i <= max_chapter[bibleIndex]; i++) {
     if (chapter == i) {
       hoverChapter = ' class="hover"';
